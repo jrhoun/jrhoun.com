@@ -1,0 +1,76 @@
+baseURL = "http://www.jrhoun.com"
+languageCode = "en-us"
+title = "JR Houn"
+theme = "ghostwriter"
+copyright = "JR Houn"
+
+# googleAnalytics = "XXX"
+# disqusShortname = "XXX"
+
+# [Privacy]
+
+# [Privacy.disqus]
+#     disable = true
+
+# [Privacy.googleAnalytics]
+#     anonymizeIP = true
+#     respectDoNotTrack = true
+#     useSessionStorage = false
+
+[Author]
+    name = "JR Houn"
+    profile = "https://www.jrhoun.com"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "Devestation and Reform"
+    description = "Reflection, Writing, and Something Else"
+    github = "https://github.com/jrhoun"
+    linkedin = "https://linkedin.com/in/jrhoun/"
+    twitter = "https://twitter.com/jrhoun"
+    email = "jr.houn@gmail.com"
+    shareTwitter = false
+    shareFacebook = false
+    shareGooglePlus = false
+    shareLinkedIn = false
+    dateFormat = "Mon, Jan 2, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+    exponeaJsUrl = ""
+    exponeaTarget = ""
+    exponeaToken = ""
+    exponeaTrackVisits = false
+    readingTime = true
+    readingTimeText = "Estimated reading time:"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/blog"
+    weight = 1
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+# [Menus]
+#   main = [
+#       {Name = "Github", URL = "https://github.com/jrhoun/"},
+#       {Name = "Twitter", URL = "https://www.twitter.com/jrhoun/"}
+#   ]
+
+# [params]
+#   description = "Devestation and Reform"
+#   themeColor = "theme-base-0b"
