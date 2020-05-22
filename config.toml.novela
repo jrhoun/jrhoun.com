@@ -1,0 +1,14 @@
+baseURL =  "https://www.jrhoun.com"
+languageCode =  "en-us"
+title =  "Hugo Novela"
+pygmentsstyle =  "monokai"
+theme= "hugo-theme-novela-master"
+paginate = 6
+
+[social] 
+twitter =  "jrhoun"
+github = "jrhoun"
+youtube = "whoisdallas"
+
+[taxonomies]
+author = "authors"

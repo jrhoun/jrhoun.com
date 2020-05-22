@@ -1,13 +1,13 @@
-baseURL = "http://www.jrhoun.com/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-author = "JR Houn"
-title = "Grace and Generativity"
+author = "Hugo Authors"
+title = "Vitae"
 theme = "hugo-vitae"
 paginate = 5
 enableRobotsTXT = true
 
-copyright = "Copyright © 2020 JR Houn | Built using the [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
+copyright = "© Copyright notice | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
 
 pygmentsstyle = "colorful"
 pygmentscodefences = true
@@ -24,16 +24,16 @@ disqusShortname = ""
 [params]
 
 	# Add meta keywords in head part (Site Keywords or Tags of Page)
-	keywords = ["blog","podcast","personal","generativity"]
+	keywords = ["hugo","vitae","theme","static"]
 
 	# Add meta description in head part
-	description = "Finding a way forward with words, music, and empathy."
+	description = "Vitae is a blog theme for Hugo that focuses on your content."
 
 	# Add pagetitle to homepage <title> tag
-	pagetitle = "Finding a way forward with words, music, and empathy."
+	pagetitle = "All about static site generation"
 
 	# Add a subtitle to your website
-	subtitle = "Finding a way forward with words, music, and empathy."
+	subtitle = "[Vitae](https://github.com/dataCobra/hugo-vitae) is a blog theme for Hugo that focuses on your content."
 
 	# Activate to show authors on pages if available
 	#listAuthor = true
@@ -42,13 +42,13 @@ disqusShortname = ""
 	math = true
 
 	# Optional 80x80 avatar image.
-	avatar = "/img/jrhoun.png"
+	avatar = "/img/vitae.jpg"
 
 	# Optional favicons for website
-	favicon = true
+	#favicon = true
 
 	# Add list of sections that should show up on the homepage
-  mainSections = ["posts"]
+        mainSections = ["post"]
 
 	# Add list of Sections/Types that should no be considered by RSS
 	#nofeedSections = ["post"]
@@ -69,8 +69,8 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Posts"
-url = "/posts"
+name = "All Posts"
+url = "/post"
 weight = 2
 
 [[menu.main]]
@@ -84,36 +84,16 @@ url = "/tags"
 weight = 4
 
 [[menu.main]]
-# name = "Categories"
-# url = "/categories"
-# weight = 5
-
-[[params.social]]
-name = "Email"
-icon = "fas fa-envelope"
-url = "mailto:jr.houn@gmail.com"
-
-[[params.social]]
-name = "Twitter"
-icon = "fab fa-twitter"
-url = "https://twitter.com/jrhoun"
-
-[[params.social]]
-name = "YouTube"
-icon = "fab fa-youtube"
-url = "https://youtube.com/whoisdallas"
+name = "Categories"
+url = "/categories"
+weight = 5
 
 [[params.social]]
 name = "Github"
 icon = "fab fa-github"
-url = "https://github.com/jrhoun"
+url = "https://github.com/dataCobra/hugo-vitae"
 
 [[params.social]]
-name = "Ko-Fi"
-icon = "fas fa-coffee"
-url = "https://ko-fi.com/jrhoun"
-
-#[[params.social]]
-#name = "RSS"
-#icon = "fas fa-rss"
-#url = "/index.xml"
+name = "RSS"
+icon = "fas fa-rss"
+url = "/index.xml"
