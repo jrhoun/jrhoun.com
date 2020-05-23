@@ -14,7 +14,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 googleAnalytics = "UA-167412742-1"
-disqusShortname = ""
+disqusShortname = "jrhoun"
 
 [taxonomies]
 	tag = "tags"
@@ -113,7 +113,7 @@ name = "Ko-Fi"
 icon = "fas fa-coffee"
 url = "https://ko-fi.com/jrhoun"
 
-#[[params.social]]
-#name = "RSS"
-#icon = "fas fa-rss"
-#url = "/index.xml"
+[[params.social]]
+name = "RSS"
+icon = "fas fa-rss"
+url = "/index.xml"
