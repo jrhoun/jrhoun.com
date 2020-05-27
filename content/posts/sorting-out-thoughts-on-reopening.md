@@ -7,7 +7,7 @@ tags: [
     "church",
     "coronavirus",
 ]
-draft: true
+draft: false
 ---
 
 ![Church is up in the air.](/img/akira-hojo-church-air.jpg)
@@ -23,7 +23,7 @@ There are several principals (that I can think of) that govern my thinking on th
 1. The biblical mandate to love God first and foremost
 1. The biblical mandate to love my neighbor and pursue my neighbor's interests above mine own
     * Closely correlated: the biblical mandate to consider the poor, widowed, and orphaned - especially of the household of faith.
-1. A biblical framework that recognizes (but does not idolize) the rationality [given to us by our rational God]("come let us reason together")
+1. A biblical framework that recognizes (but does not idolize) the rationality given to us by our rational God
 1. The honoring and submission to good-faith authorities
 1. Humility
 1. Charity
@@ -94,6 +94,6 @@ There's always pieces of the picture that I know I'm missing, and so I hope to a
 
 The virtue of Christian charity is one that, in the _popular narrative_, is effectively absent - replaced by the divisions of the ongoing culture war. Can we be kind to those who disagree with us? Tenderhearted even? Forgiving one another when we, inevitably, get it wrong? I hope so.
 
-## Conclusion
+## Finally
 
 I ended up writing a lot more than I anticipated, so these thoughts are now going to be split into a two part-er. I'll try and write up my thoughts on specific implementation details for a church reopening plan soon.

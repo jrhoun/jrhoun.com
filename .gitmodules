@@ -1,0 +1,3 @@
+[submodule "themes/hugo-vitae-master"]
+	path = themes/hugo-vitae-master
+	url = https://github.com/jrhoun/hugo-vitae.git

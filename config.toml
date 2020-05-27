@@ -3,7 +3,7 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 author = "JR Houn"
 title = "Grace and Generativity"
-theme = "hugo-vitae"
+theme = "hugo-vitae-master"
 paginate = 5
 enableRobotsTXT = true
 
