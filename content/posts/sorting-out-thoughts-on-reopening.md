@@ -24,7 +24,7 @@ There are several principles (that I can think of) that govern my thinking on th
 1. The biblical mandate to love my neighbor and pursue my neighbor's interests above mine own
     * Closely correlated: the biblical mandate to consider the poor, widowed, and orphaned - especially of the household of faith.
 1. A biblical framework that recognizes (but does not idolize) the rationality given to us by our rational God
-1. The honoring and submission to good-faith authorities
+1. The honoring of and submission to good-faith authorities
 1. Humility
 1. Charity
 
@@ -74,7 +74,7 @@ I had to put this here because there is a lot of anti-science mis-information be
 >
 >**Romans 13:1**
 
-This is closely correlated to the previous principle. I am not an expert in infectious diseases. Because it is a _novel_ Coronavirus I accept that what we understand about it is an evolving process. The _R0_ value, what constitutes the best precautions, the severity of illness, etc. The uncertainty however, does not dissuade me from allowing myself to be subject to those who I believe are trying to act in the best interests of the governed. It also reminds me to _respect_ (not deride or slander) those who are working in good faith to govern. The major question here that I struggle with is what constitutes "good faith".
+This is closely correlated to the previous principle. I am not an expert in infectious diseases. Because it is a _novel_ Coronavirus I accept that what we understand about it is an evolving process. The _R0_ value, what constitutes the best precautions, the severity of illness, etc. The uncertainty however, does not dissuade me from allowing myself to be subject to those who I believe are trying to act in the best interests of the governed. It also reminds me to _respect_ those who are working in good faith to govern. The major question here that I struggle with is what constitutes "good faith".
 
 When government leaders promote division, discord, or falsehoods, I do not consider that "good faith". Do I ignore them? No, but I probably will evaluate direction from authorities that lack good-faithed credibility much more than those who have no such lack.
 
