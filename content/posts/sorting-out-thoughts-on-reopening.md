@@ -18,7 +18,7 @@ As you read this, we here in 2020 are living through what [some](https://www.nej
 
 ## What's Important
 
-There are several principals (that I can think of) that govern my thinking on this topic:
+There are several principles (that I can think of) that govern my thinking on this topic:
 
 1. The biblical mandate to love God first and foremost
 1. The biblical mandate to love my neighbor and pursue my neighbor's interests above mine own
