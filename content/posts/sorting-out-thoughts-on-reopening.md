@@ -12,6 +12,8 @@ draft: false
 
 ![Church is up in the air.](/img/akira-hojo-church-air.jpg)
 
+> *Update*: [Sorting out my Thoughts on Reopening (Part 2)]({{< relref "sorting-out-thoughts-on-reopening-pt2.md" >}}) is now available.
+
 Dear Future Self:
 
 As you read this, we here in 2020 are living through what [some](https://www.nejm.org/doi/full/10.1056/NEJMp2003762) have called a once-in-a-century pandemic event. We have been living in varying degrees of [state-ordered lockdown](https://www.politico.com/states/california/story/2020/03/19/newsom-orders-all-40m-californians-to-stay-home-in-nations-strictest-state-lockdown-1268248) for around two months. To date, an impossible to fathom [**100,000**](https://www.nytimes.com/interactive/2020/05/24/us/us-coronavirus-deaths-100000.html) people have died because of COVID-19. Almost every possible norm in the regular rhythms of life have been upended for many, including, physical gatherings of our church community at West Covina Christian Church. We are now beginning to discern what the future looks like for the gathering together of the church and this blog is my attempt to chronicle and process my thoughts prior to meeting.
