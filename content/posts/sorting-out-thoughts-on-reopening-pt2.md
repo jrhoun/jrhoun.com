@@ -32,7 +32,7 @@ My multi-generational household is uniquely vulnerable to this disease. On one e
 
 With all that in mind here are some of my initial thoughts on moving towards something that resembles in-person services.
 
-> **Note:** I'm not going to use the phrase "return to normal" because I think it is entirely plausible that "normal" is going to be totally different from here on out --- AND that should not necessarily be viewed as a bad thing. God has plans bigger than us and it's possible that those plans could include disrupting the status quo of our country's building-centric church culture. Furthermore, the idea of "returning to normal" can be quite damaging to someone who has experienced loss or pain as a result of COVID-19 - for those who know any one of the 100,000 people who have died - their grief is their new normal and a desire to rapidly return to "normal" can come across dismissive.
+> **Note:** I'm not going to use the phrase "return to normal" because I think it is entirely plausible that "normal" is going to be totally different from here on out --- AND that should not necessarily be viewed as a bad thing. God has plans bigger than us and it's possible that those plans could include disrupting the status quo of our country's building-centric church culture. Furthermore, the idea of "returning to normal" can be quite damaging to someone who has experienced loss or pain as a result of COVID-19 - for those who know any one of the 100,000 people who have died - their grief is their new normal and projecting a desire to rapidly return to "normal" can come across as dismissive.
 
 ## Concerns
 
