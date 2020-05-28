@@ -99,7 +99,7 @@ One idea that I have seen discussed for this phase is to encourage and support "
 
 * Enable a subset of the congregation to worship in-person on the church's property
 * Continue to support concerned congregants and at-risk demographics
-* Safely offer support and community engagement with those who are willing to meet in person for encouragement
+* Safely offer support and in-person engagement with those who are willing to meet in person
 
 If staff and volunteers are ready, you could substitute "Parking Lot" with "Sanctuary". The idea here is to transition to livestreaming the worship service AND offer a monthly (or some other time increment) service that a limited number of people can sign up for to attend in person. All other congregants are encouraged to watch from home.
 
