@@ -111,7 +111,7 @@ Benefits of this approach:
 
 ## Phase 3 - ???
 
-It is _very_ difficult for me to imagine a phase like this WITHOUT a scientifically vetted and verified vaccine. I think it's very possible that we could be in some variation of Phase 2 for as long as it takes.
+It is _very_ difficult for me to imagine a phase like this WITHOUT a scientifically vetted and verified vaccine. I think it's very possible that we could be in some variation of Phase 2 for as long is at may take to get a vaccine.
 
 ## Other Thoughts
 
