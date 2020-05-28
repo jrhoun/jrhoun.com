@@ -46,7 +46,7 @@ One constant throughout _all_ of the phases I will describe: until there's a vac
 
 ### Staff and Volunteer Resourcing
 
-Deep cleaning, sanitation, and signage will surely be a huge and ongoing effort. Door handles, bathrooms, pews, mics, communion elements, mic stands, the list goes on. It would seem to me that the more we meet indoors, the greater the effort must be expended to maintain and sanitize the facility. Furthermore, most recommendations are to meet outdoors if at all possible to reduce risk of transmission. Therefore many of my thoughts are to try and find ways to minimize or _very_ slowly phase into in-person meetings if at all possible so that we can be as safe as possible, and ensure we can effectively run the sanitation processes necessary in a scalable way.
+Deep cleaning, sanitation, and signage will surely be a huge and ongoing effort. Door handles, bathrooms, pews, mics, communion elements, mic stands, the list goes on. It would seem to me that the more we meet indoors, the greater the effort that must be expended to maintain and sanitize the facility. Furthermore, most recommendations are to meet outdoors if at all possible to reduce risk of transmission. Therefore many of my thoughts are to try and find ways to minimize or _very_ slowly phase into in-person meetings if at all possible so that we can be as safe as possible, and ensure we can effectively run the sanitation processes necessary in a scalable way.
 
 Given my context and some of my concerns, I offer the following thoughts on return phases.
 
