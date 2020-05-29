@@ -42,7 +42,7 @@ As I mentioned before, singing has been tied to viral transmission in other plac
 
 ### Children and Church
 
-One constant throughout _all_ of the phases I will describe: until there's a vaccine, I can't (yet) imagine how the Children's could possibly reopen in a way would allow me as a dad to feel safe. Kids are difficult to control, while they may understand physical distancing they can't be expected to manage it entirely on their own. The burden on volunteers and staff would be immense to train, clean, and ensure that everyone is comfortable and safe. That's not to say that it's not possible, I just am having a very difficult time conceiving of how it could work.
+One constant throughout _all_ of the phases I will describe: until there's a vaccine, I can't (yet) imagine how the Children's ministry could possibly reopen in a way would allow me as a dad to feel safe. Kids are difficult to control, while they may understand physical distancing they can't be expected to manage it entirely on their own. The burden on volunteers and staff would be immense to train, clean, and ensure that everyone is comfortable and safe. That's not to say that it's not possible, I just am having a very difficult time conceiving of how it could work.
 
 ### Staff and Volunteer Resourcing
 
