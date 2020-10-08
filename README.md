@@ -1,6 +1,6 @@
 # jrhoun.com
 
-This repository uses the static site tool [Hugo](www.gohugo.com) to build jrhoun.com.
+This repository uses [Hugo](www.gohugo.com) to build jrhoun.com.
 
 ## Building the Site Locally
 
