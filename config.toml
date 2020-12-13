@@ -14,55 +14,72 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 googleAnalytics = "UA-167412742-1"
-disqusShortname = "jrhoun"
 
 [taxonomies]
-	tag = "tags"
-	category = "categories"
-	series = "series"
+
+tag = "tags"
+category = "categories"
+series = "series"
 
 [params]
 
-	# Add meta keywords in head part (Site Keywords or Tags of Page)
-	keywords = ["blog","podcast","personal","generativity"]
+# Add meta keywords in head part (Site Keywords or Tags of Page)
 
-	# Add meta description in head part
-	description = "Finding a way forward with words, music, and empathy."
+keywords = ["blog","podcast","personal","generativity"]
 
-	# Add pagetitle to homepage <title> tag
-	pagetitle = "Finding a way forward with words, music, and empathy."
+# Add meta description in head part
 
-	# Add a subtitle to your website
-	subtitle = "Finding a way forward with words, music, and empathy."
+description = "Finding a way forward with words, music, and empathy."
 
-	# Activate to show authors on pages if available
-	#listAuthor = true
+# Add pagetitle to homepage <title> tag
 
-	# Add math typesetting with KaTeX (Global with this Param)
-	math = true
+pagetitle = "Finding a way forward with words, music, and empathy."
 
-	# Optional 80x80 avatar image.
-	avatar = "/img/jrhoun.png"
+# Add a subtitle to your website
 
-	# Optional favicons for website
-	favicon = true
+subtitle = "Finding a way forward with words, music, and empathy."
 
-	# Add list of sections that should show up on the homepage
-  mainSections = ["posts"]
+# Activate to show authors on pages if available
+#listAuthor = true
 
-	# Add list of Sections/Types that should no be considered by RSS
-	#nofeedSections = ["post"]
+# Add math typesetting with KaTeX (Global with this Param)
 
-	# Deactivate Taxonomies for specific page types
-	#disableTaxoTypes = [""]
+math = true
 
-	# Content types to disable Disqus on.
-	disableDisqusTypes = ["page"]
+# Optional 80x80 avatar image.
 
-	# Custom CSS applied to default styles.
-	customCSS = "css/custom.css"
+avatar = "/img/jrhoun.png"
+
+# Optional favicons for website
+
+favicon = true
+
+# Add list of sections that should show up on the homepage
+mainSections = ["posts"]
+
+# Add list of Sections/Types that should no be considered by RSS
+#nofeedSections = ["post"]
+
+# Deactivate Taxonomies for specific page types
+#disableTaxoTypes = [""]
+
+# Custom CSS applied to default styles.
+customCSS = "css/custom.css"
+
+# Comments
+
+[params.comments]
+enabled = true
+engine = "disqus"
+
+# Content types to disable Disqus on.
+disableDisqusTypes = ["page"]
+
+[params.comments.disqus]
+shortname = "jrhoun"
 
 # Nav.
+
 [[menu.main]]
 name = "Home"
 url = "/"
@@ -84,9 +101,9 @@ url = "/tags"
 weight = 4
 
 [[menu.main]]
-# name = "Categories"
-# url = "/categories"
-# weight = 5
+name = "Series"
+url = "/series"
+weight = 5
 
 [[params.social]]
 name = "Email"
