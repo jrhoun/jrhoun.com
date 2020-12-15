@@ -1,5 +1,5 @@
 ---
-title: "That Time When ... I Thought I Thought I Was the Best Basketball Player"
+title: "That Time When ... I Thought I Was the Best Basketball Player"
 author: "JR Houn"
 date: 2020-12-13T10:33:56-08:00
 tags: [
@@ -25,9 +25,9 @@ I played a *ton* of [NBA Jam](https://en.wikipedia.org/wiki/NBA_Jam) on Super Ni
 
 You are allowed to laugh. I certainly laugh, and cringe about it.
 
-So, anyways, I thought I was the best basketball player because of my superior NBA Jam skillz -- that is until I showed up for our first practice. I remember the coach. I remember the other players on the team. And, I remember the moment we were told to do a lay-up drill. What's a lay up? How do I dribble? Where do I stand for a free throw? I did a few pump fakes during a scrimmage and but a shot up, but air balled?! People laughed at my airball. Oh. This. Is. Not. What. I. Thought. It. Would. Be. Like.
+So, anyways, I thought I was the best basketball player because of my superior NBA Jam skillz -- that is until I showed up for our first practice. I remember the coach. I remember the other players on the team. And, I remember the moment we were told to do a lay-up drill. What's a lay up? How do I dribble? Where do I stand for a free throw? I did a few pump fakes during a scrimmage and put a shot up, but air balled?! People laughed at my airball. Oh. This. Is. Not. What. I. Thought. It. Would. Be. Like.
 
-That practice was only a preview of the blow to crushing blow my outlandish 4th grade ego would take that season.
+That practice was only a preview of the crushing blows my outlandish 4th grade ego would take that season.
 
 Later that season I remember one particular game where our team trailed another in the 4th quarter. Time was ticking down, the opposing team was in possession of the ball. Full court press time! I was guarding the player with the ball. Our coach shouted out to me,
 
