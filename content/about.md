@@ -9,4 +9,4 @@ JR lives with his family in Orange County, CA and attends [West Covina Christian
 
 ## Updates
 
-If you're interested in receiving updates to this blog via email [subscribe to the newsletter](https://www.tinyletter.com/jrhoun) or follow the [RSS feed](/index.xml).
+If you're interested in receiving updates to this blog via email, [subscribe to the newsletter](https://www.tinyletter.com/jrhoun) or follow the [RSS feed](/index.xml).
