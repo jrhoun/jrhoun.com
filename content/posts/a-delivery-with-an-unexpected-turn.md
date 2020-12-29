@@ -18,11 +18,11 @@ After a moment, the door slowly opens. A middle aged man in his pajamas stands i
 
 The next thing I notice is the smell of cigarette smoke, heavy both on the man and wafting out of the apartment. Instinctively, my eyes scan the entry way of the dark apartment. The entry way opens directly into the living room. A sofa sits in front of a window. A coffee table sits in front of the sofa. On the coffee table, an ash tray -- many cigarette butts had found their home in that tray.
 
-> "Delivery for Mr. _____?" I ask.
+> "Delivery for Mr. _____?"
 
-He acknowledges his identity and signs the clipboard. I hand over the plant, which all of a sudden seems smaller and less green than it did a moment ago. In slow motion, he sets it on his coffee table. Cigarette in hand, he opens the attached card. His eyes alternate between looking at the now tiny looking plant and the card. I remain in the doorway. He sits down in a chair opposite the sofa and window. When he sits, he sits with the weight of a hundred pounds on his shoulders.
+He acknowledges his identity and signs the clipboard. I hand over the plant, which all of a sudden seems smaller and less green than it did a moment ago. In slow motion, he sets it on his coffee table. Cigarette in hand, he opens the attached card. His eyes alternate between looking plant and the card. I remain in the doorway. He sits down in a chair opposite the sofa and window. When he sits, he sits with unknowable weight on his shoulders.
 
-> "I'm sorry. Is there anything I can do to help?", I offer.
+> "I'm sorry. Is there anything I can do to help?"
 
 I don't know why I said that. I am on the clock, I have other deliveries. My boss expects this delivery to take 15 minutes. Furthermore, I don't know anything about this person and feel utterly ill-equipped to provide anything of value.
 
