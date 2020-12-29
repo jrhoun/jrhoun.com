@@ -26,7 +26,7 @@ He acknowledges his identity and signs the clipboard. I hand over the plant, whi
 
 I don't know why I said that. I am on the clock, I have other deliveries. My boss expects this delivery to take 15 minutes. Furthermore, I don't know anything about this person and feel utterly ill-equipped to provide anything of value.
 
-From this point on, I don't remember anything he says.  I remember the smell of the many cigarettes that lingered in the air. I know that I sat on the couch. I know that as I sat on that couch, this man wept in front of me. Loudly. Openly. A tightly held grief that burst forth in great waves that slowly became smaller waves.
+From this point on, I don't remember anything he says.  I remember the smell of cigarettes that lingered in the air. I know that I sat on the couch. I know that as I sat on that couch, this man wept in front of me. Loudly. Openly. A tightly held grief that burst forth in great waves that slowly became smaller waves.
 
 I remember getting back into the delivery van. My limbs and time itself feeling leadened and weighted. What happened? How long was I there? I wasn't sure. I knew that I bore some of the man's grief -- but also a different feeling. I didn't have vocabulary then to describe it, but I can only try and describe it in retrospect. The time felt intimate, weighty, and ... sacred. I, a stranger to this man, had been briefly allowed to share in one of this man's most intimate and personal moments.
 
