@@ -6,6 +6,7 @@ title = "Grace and Generativity"
 theme = "hugo-vitae-master"
 paginate = 5
 enableRobotsTXT = true
+enableEmoji = true
 
 copyright = "Copyright © 2020 JR Houn | Built using the [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
 
