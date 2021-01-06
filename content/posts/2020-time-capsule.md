@@ -5,7 +5,7 @@ date: 2021-01-05T21:26:43-08:00
 tags: [
     "life", "2020",
 ]
-draft: true
+draft: false
 ---
 
 
@@ -72,6 +72,6 @@ My (mostly) on again off again relationship with **Destiny 2** continues. Rich u
 * A new president
 * Trying to finish [Political Visions & Illusions: A Survey & Christian Critique of Contemporary Ideologies](https://smile.amazon.com/Political-Visions-Illusions-Contemporary-Ideologies/dp/0830827269?sa-no-redirect=1)
 
-Thanks for reading and getting this far. It's hard out there. If you ever need a person to talk to, please reach out to me at any of the various points of contact listed on the site.
+Thanks for reading and getting this far. It's hard out there. If you ever need a person to talk to, please reach out to me at any of the various points of contact listed on the site and I'd be happy to listen.
 
 If you enjoyed reading this blog and are interested in receiving further updates to this blog via email, consider [subscribing to the newsletter](https://www.tinyletter.com/jrhoun) or following the [RSS feed](/index.xml).
