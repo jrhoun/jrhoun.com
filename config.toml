@@ -2,7 +2,7 @@ baseURL = "https://www.jrhoun.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 author = "JR Houn"
-title = "Grace and Generativity"
+title = "One Step at a Time"
 theme = "hugo-vitae-master"
 paginate = 5
 enableRobotsTXT = true
@@ -23,6 +23,10 @@ category = "categories"
 series = "series"
 
 [params]
+
+# Enable dark mode as default
+
+#darkmode = true
 
 # Add meta keywords in head part (Site Keywords or Tags of Page)
 
@@ -56,16 +60,24 @@ avatar = "/img/jrhoun.png"
 favicon = true
 
 # Add list of sections that should show up on the homepage
+
 mainSections = ["posts"]
 
 # Add list of Sections/Types that should no be considered by RSS
+
 #nofeedSections = ["post"]
 
 # Deactivate Taxonomies for specific page types
+
 #disableTaxoTypes = [""]
 
 # Custom CSS applied to default styles.
+
 customCSS = "css/custom.css"
+
+# Show reading time on a post
+
+readingTime = false
 
 # Comments
 
