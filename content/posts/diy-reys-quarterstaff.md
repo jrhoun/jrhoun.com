@@ -5,7 +5,7 @@ date: 2021-10-11T11:57:53-07:00
 tags: [
     "life","halloween","diy"
 ]
-draft: true
+draft: false
 ---
 
 The stars have aligned this year. The children have all decided they want to be Star Wars characters for Halloween. This was not an outcome that I actively sought, but I welcome it. I'm sure none of you are surprised.

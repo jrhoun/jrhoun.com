@@ -2,7 +2,7 @@ baseURL = "https://www.jrhoun.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 author = "JR Houn"
-title = "One Step at a Time"
+title = "Looking for the Fig Tree"
 theme = "hugo-vitae-master"
 paginate = 5
 enableRobotsTXT = true
@@ -121,7 +121,7 @@ weight = 5
 [[params.social]]
 name = "Email"
 icon = "fas fa-envelope"
-url = "mailto:jr.houn@gmail.com"
+cmd = "mailto:jr.houn@gmail.com"
 
 [[params.social]]
 name = "Twitter"
