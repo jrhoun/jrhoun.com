@@ -35,7 +35,7 @@ I thought about trying to do a more exacting replica of the contours and colorin
 
 {{< youtube upPX009QCkM >}}
 
-Definitely not perfect, but if you're curious, here's a rough overview of the process I followed.
+Definitely not perfect, but still, not bad! If you're curious, here's a rough overview of the process I followed.
 
 ## Planning
 
