@@ -63,9 +63,9 @@ Once I was satisfied, I moved on to painting the staff.
 
 ## Paint
 
-I didn't take too many pictures during this part. Sorry. Basically I spray painted the entire staff with a base satin black coat (this is the color I had on hand). There may have been a better option for base coat color, but I think it turned out well enough.
+I didn't take too many pictures during this part. Sorry. Basically I spray painted the entire staff with a base satin black coat (this is the color I had on hand). There may have been a better option for base coat color, but I think it turned out well enough. Side note, I have very little painting experience, and this was my first attempt to try and produce this kind of effect.
 
-After waiting 24 hours for the base coat to try, I moved on to opening up my Silver and Copper paints to try and weather the staff. I first started with the silver and used a brush to sparingly add color to parts of staff that I could imagine being exposed to the elements. This was a lot of detailed work, but still ended up being very satisfying. I then repeated this process 30 minutes later with the copper paint, which I was hoping would give the appearance of a rustiness to the staff.
+After waiting 24 hours for the base coat to try, I moved on to opening up my silver and copper paints to try and weather the staff. I first started with the silver and sparingly brushed small amounts on to the parts of staff that I could imagine being exposed to the elements. Mostly did this by trial and error. It was also a lot of detailed work, but still ended up being very satisfying. I then repeated this process 30 minutes later with the copper paint, which I was hoping would give the appearance of a rustiness to the staff.
 
 {{< youtube bQIwsM7HESI >}}
 
@@ -80,3 +80,5 @@ For the larger cloth grip part of the staff, I used the muslin cloth that I purc
 ## The Final Product
 
 {{< figure src="/img/05-finished.jpg" caption="" attr="" attrlink="" >}}
+
+If you enjoyed reading this blog and are interested in receiving further updates to this blog via email, consider [subscribing to the newsletter](https://www.tinyletter.com/jrhoun) or following the [RSS feed](/index.xml).
