@@ -1,5 +1,7 @@
 # jrhoun.com
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/891066e4-2293-4a7f-a1b4-21fe95a07f78/deploy-status)](https://app.netlify.com/sites/jr-houn-dot-com/deploys)
+
 This repository uses [Hugo](www.gohugo.com) to build jrhoun.com.
 
 ## Building the Site Locally
@@ -28,6 +30,14 @@ The fork is [here](https://github.com/jrhoun/hugo-vitae) and has a two notable p
 
 * Ensure that the [full content of a blog entry appear in the RSS feed](https://github.com/jrhoun/hugo-vitae/commit/15405f2de992ceeafc24f63bb53e019e7b364f76). This patch was made primarily to enable automated newsletter generation using TinyLetter.
 * [Enable symbols to be used in markdown links](https://github.com/jrhoun/hugo-vitae/commit/27ddab37c2702fa0c55aecbcff4c6ec419e65c89)
+
+## Site Hosting
+
+`jrhoun.com` is hosted using netlify.com and is configured to use Continuous Deployment. When new changes are pushed to the `jrhoun/jrhoun.com` master branch, Netlify automatically fetches the repo, builds the site using the `hugo` command, and publishes the updated site files (usually within minutes).
+
+## Domain Registrar
+
+The `jrhoun.com` is currently managed at hover.com.
 
 ## Writing Content
 

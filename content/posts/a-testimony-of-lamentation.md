@@ -5,7 +5,7 @@ date: 2022-06-28T08:56:32-07:00
 tags: [
     "grief","life","church"
 ]
-draft: true
+draft: false
 ---
 
 My pastor asked me to share a personal testimony at church of a time or situation where I’ve felt grief, lament, and experienced God's presence. This is an edited version of what I shared on 06/26/2022 at West Covina Christian Church. If you want to see me share it you can watch it on the church's recording of that service:
