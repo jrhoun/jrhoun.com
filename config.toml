@@ -1,4 +1,4 @@
-baseURL = "https://www.jrhoun.com/"
+BaseURL = "https://www.jrhoun.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 author = "JR Houn"
@@ -8,13 +8,13 @@ paginate = 5
 enableRobotsTXT = true
 enableEmoji = true
 
-copyright = "Copyright © 2020 JR Houn | Built using the [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
+copyright = "Copyright © 2022 JR Houn | Built using the [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
 
 pygmentsstyle = "colorful"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-googleAnalytics = "UA-167412742-1"
+googleAnalytics = "G-ZXDC2PD2YN"
 
 [taxonomies]
 
@@ -25,58 +25,48 @@ series = "series"
 [params]
 
 # Enable dark mode as default
-
 #darkmode = true
 
 # Add meta keywords in head part (Site Keywords or Tags of Page)
-
 keywords = ["blog","podcast","personal","generativity"]
 
 # Add meta description in head part
-
 description = "Finding a way forward with words, music, and empathy."
 
 # Add pagetitle to homepage <title> tag
-
 pagetitle = "Finding a way forward with words, music, and empathy."
 
 # Add a subtitle to your website
-
 subtitle = "Finding a way forward with words, music, and empathy."
 
 # Activate to show authors on pages if available
 #listAuthor = true
 
-# Add math typesetting with KaTeX (Global with this Param)
+# Show author on a post (groups with readingTime and wordCount)
+hideAuthor = true
 
+# Add math typesetting with KaTeX (Global with this Param)
 math = true
 
 # Optional 80x80 avatar image.
-
 avatar = "/img/jrhoun.png"
 
 # Optional favicons for website
-
 favicon = true
 
 # Add list of sections that should show up on the homepage
-
 mainSections = ["posts"]
 
 # Add list of Sections/Types that should no be considered by RSS
-
 #nofeedSections = ["post"]
 
 # Deactivate Taxonomies for specific page types
-
 #disableTaxoTypes = [""]
 
 # Custom CSS applied to default styles.
-
 customCSS = "css/custom.css"
 
 # Show reading time on a post
-
 readingTime = false
 
 # Comments
