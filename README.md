@@ -6,13 +6,31 @@ This repository uses [Hugo](www.gohugo.com) to build jrhoun.com.
 
 ## Building the Site Locally
 
+### Setting up the Repo Locally
+
 Checkout the site by running: `git clone https://github.com/jrhoun/jrhoun.com.git`
+
+The site's theme is incorporated in the repo as a git submodule. See https://github.com/jrhoun/jrhoun.com/tree/master/themes. Cloning the repo does not automatically also checkout the submodule. In order to checkout the submodule run the following command in the root project directory:
+
+`git submodule update --init --recursive`
+
+Your repo should now have everything checked out.
+
+### Installing Hugo
 
 [Install Hugo](https://gohugo.io/getting-started/installing/)
 
-I'm on Windows and used [Chocolatey](https://chocolatey.org/) to install using gitbash.
+#### Windows
+
+On Windows I used [Chocolatey](https://chocolatey.org/) to install using gitbash.
 
 `choco install hugo`
+
+### WSL2
+
+More recently I've begun using WSL2 + Ubuntu. To install:
+
+`sudo apt install hugo`
 
 Build and run the site locally with live updates by running:
 
