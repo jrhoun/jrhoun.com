@@ -3,7 +3,8 @@ title: "That Time When ... A Delivery Took an Unexpected Turn"
 author: "JR Houn"
 date: 2020-12-29T15:01:05-08:00
 tags: [
-    "life","grief",
+    "life",
+    "grief",
 ]
 series: [
     "That Time When",

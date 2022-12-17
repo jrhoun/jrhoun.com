@@ -3,7 +3,8 @@ title: "2020 Time Capsule"
 author: "JR Houn"
 date: 2021-01-05T21:26:43-08:00
 tags: [
-    "life", "2020",
+    "life",
+    "2020",
 ]
 draft: false
 ---
