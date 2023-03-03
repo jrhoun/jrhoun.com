@@ -47,7 +47,7 @@ It must have been a great nap because my sleep was deep. Which made being roused
 
 My discomfort grew, as did my awareness that this was not the reprimand that I was bracing myself for. Brian went on to tell me that he was interviewing me. He explained that he owned a software company and that him, his wife, and a few others had been praying that night in the sanctuary asking God to provide him people to hire for his company. He noted that he had heard my name from Craig Kaneko. Fifteen minutes later and after the worst half-awake interview that has even been given in the history of the world, I was offered a job. The job was to function as a moderator for the Liferay message boards, and that I could start in as soon as 2 weeks. I have no recollection of what the actual job title was. There might not have been one.
 
-At this point, Saechang came back into the room. Whether it was morbid curiosity of what had occurred, or something else, I do not know. But as soon as Brian saw him, he repeated the same rapid fire questions that he had asked me, to Saechang. 15 minutes later, he too had a job offer for the same job as me.
+At this point, Saechang came back into the room. Whether it was morbid curiosity of what had occurred, or something else, I do not know. But as soon as Brian saw him, he repeated the same rapid fire questions that he had asked me, to Saechang. Moments later, he too had a job offer for the same job as me.
 
 Even after Brian left, I questioned whether or not the events that had just transpired were in fact, real. (They were.)
 
