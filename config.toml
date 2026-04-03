@@ -4,7 +4,8 @@ defaultContentLanguage = "en"
 author = "JR Houn"
 title = "Looking for the Fig Tree"
 theme = "hugo-vitae-master"
-paginate = 5
+[pagination]
+pagerSize = 5
 enableRobotsTXT = true
 enableEmoji = true
 
@@ -114,9 +115,9 @@ icon = "fas fa-envelope"
 cmd = "mailto:jr.houn@gmail.com"
 
 [[params.social]]
-name = "Twitter"
-icon = "fab fa-twitter"
-url = "https://twitter.com/jrhoun"
+name = "Threads"
+icon = "fas fa-at"
+url = "https://www.threads.com/@jrhoun"
 
 [[params.social]]
 name = "YouTube"
@@ -137,3 +138,6 @@ url = "https://ko-fi.com/jrhoun"
 name = "RSS"
 icon = "fas fa-rss"
 url = "/index.xml"
+
+[markup.goldmark.renderer]
+unsafe = true

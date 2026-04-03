@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo --gc --minify"
+command = "chmod +x scripts/*.sh && ./scripts/decrypt-photos.sh && hugo --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.88.1"
@@ -28,3 +28,25 @@ HUGO_VERSION = "0.88.1"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/protected/*"
+  status = 200
+  conditions = {Role = ["admin", "visitor"]}
+
+[[redirects]]
+  from = "/protected/*"
+  to = "/login"
+  status = 401
+  force = true
+
+[[redirects]]
+  from = "/img/protected/*"
+  status = 200
+  conditions = {Role = ["admin", "visitor"]}
+
+[[redirects]]
+  from = "/img/protected/*"
+  to = "/login"
+  status = 401
+  force = true

@@ -70,3 +70,17 @@ This will create a new `.md` in the `/posts/` directory with title date, and dra
 ## Automatically Generating Newsletters
 
 To enable users to receive emails with blog content, I setup an automated job with [Zapier](https://zapier.com/) that monitors the blog's RSS feed for updates and then pushes new blog content to connected [TinyLetter](https://tinyletter.com/) account. The content appears as a draft that can be manually or automatically sent as a newsletter to subscriber's emails.
+
+## Protected Photos / Encrypted Build Pipeline
+
+This repository is public, images committed to `static/img/` are visible to the internet. To protect sensitive photos while preserving the open-source nature of this blog, I use a symmetrical-key build-time encryption pipeline via OpenSSL.
+
+### Workflow for Adding Private Photos:
+1. Place photos in the `static/img/protected/` folder (ignored by git).
+2. Run `./scripts/encrypt-photos.sh`.
+3. Enter the encryption password when prompted.
+4. The script outputs an encrypted file at `static/protected-photos.enc`.
+5. Run `git add static/protected-photos.enc` and commit.
+
+### Netlify Automated Decryption:
+During the build hook, Netlify reads the `PHOTO_DECRYPTION_KEY` from its private dashboard environment variables, unpacks the raw images strictly in its own isolated builder memory right before executing `hugo`, and uses its standard `.toml` routing to enforce login rules so the URLs are protected in production.
