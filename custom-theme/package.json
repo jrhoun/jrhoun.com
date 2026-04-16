@@ -1,0 +1,20 @@
+{
+  "name": "jrhoun-custom-theme",
+  "description": "A custom theme for jrhoun.com.",
+  "demo": "https://jrhoun.com",
+  "version": "1.2.5",
+  "author": {
+    "name": "JR Houn",
+    "email": "jr.houn@gmail.com"
+  },
+  "engines": {
+    "ghost": ">=5.0.0"
+  },
+  "license": "MIT",
+  "config": {
+    "posts_per_page": 9
+  },
+  "scripts": {
+    "zip": "node -e \"const pkg=require('./package.json'); const {execSync}=require('child_process'); const name='jrhoun-theme-' + pkg.version + '.zip'; console.log('Zipping to ' + name); execSync('npx -y bestzip ' + name + ' assets/ *.hbs package.json')\""
+  }
+}

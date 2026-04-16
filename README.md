@@ -1,72 +1,47 @@
 # jrhoun.com
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/891066e4-2293-4a7f-a1b4-21fe95a07f78/deploy-status)](https://app.netlify.com/sites/jr-houn-dot-com/deploys)
+> [!NOTE]
+> **AI Disclosure**: This repository—including its structure, theme refinements, and deployment automation—is maintained and organized with the assistance of **Antigravity**, an AI coding assistant.
 
-This repository uses [Hugo](www.gohugo.com) to build jrhoun.com.
+This repository contains the source code, theme, and deployment configuration for jrhoun.com, powered by **Ghost CMS**.
 
-## Building the Site Locally
+## Repository Structure
 
-### Setting up the Repo Locally
+- `custom-theme/`: The custom Ghost theme (Handlebars).
+- `ghost-deploy/`: Docker Compose configuration for self-hosting Ghost.
+- `scripts/`: Utility scripts for theme packaging and migration.
+- `legacy-hugo/`: Archive of the previous Hugo-powered site.
 
-Checkout the site by running: `git clone https://github.com/jrhoun/jrhoun.com.git`
+## Ghost Deployment
 
-The site's theme is incorporated in the repo as a git submodule. See https://github.com/jrhoun/jrhoun.com/tree/master/themes. Cloning the repo does not automatically also checkout the submodule. In order to checkout the submodule run the following command in the root project directory:
+The site is self-hosted using Docker. The configuration is located in the `ghost-deploy/` directory.
 
-`git submodule update --init --recursive`
+### Prerequisites
+- Docker and Docker Compose
+- A reverse proxy (e.g., Synology Reverse Proxy, Nginx, or Caddy) for SSL termination.
 
-Your repo should now have everything checked out.
+### Setup
+1. Copy `ghost-deploy/.env.template` to `ghost-deploy/.env`.
+2. Fill in your specific environment variables (URL, Database passwords, Mailgun credentials).
+3. Run the deployment:
 
-### Installing Hugo
+   ```bash
+   cd ghost-deploy
+   docker-compose up -d
+   ```
 
-[Install Hugo](https://gohugo.io/getting-started/installing/)
+## Custom Theme Development
 
-#### Windows
+The custom theme is located in `custom-theme/`.
 
-On Windows I used [Chocolatey](https://chocolatey.org/) to install using gitbash.
+### Packaging the Theme
 
-`choco install hugo`
+To create a zip file for uploading to Ghost, use the provided script:
+```bash
+python3 scripts/zip_theme.py
+```
+This will generate a versioned zip file in the `custom-theme/` directory.
 
-### WSL2
+## Legacy Site
+The previous Hugo-based site has been archived in the `legacy-hugo/` directory for historical reference. The original `content/`, `themes/`, and `config.toml` are preserved there.
 
-More recently I've begun using WSL2 + Ubuntu. To install:
-
-`sudo apt install hugo`
-
-Build and run the site locally with live updates by running:
-
-`hugo server -D`
-
-The site is accessible at `localhost:1313`.
-
-### Site Configuration
-
-See `conf.toml` for site configuration details.
-
-The site uses a fork of the [hugo-vitae](https://github.com/dataCobra/hugo-vitae) theme as a base.
-
-The fork is [here](https://github.com/jrhoun/hugo-vitae) and has a two notable patches:
-
-* Ensure that the [full content of a blog entry appear in the RSS feed](https://github.com/jrhoun/hugo-vitae/commit/15405f2de992ceeafc24f63bb53e019e7b364f76). This patch was made primarily to enable automated newsletter generation using TinyLetter.
-* [Enable symbols to be used in markdown links](https://github.com/jrhoun/hugo-vitae/commit/27ddab37c2702fa0c55aecbcff4c6ec419e65c89)
-
-## Site Hosting
-
-`jrhoun.com` is hosted using netlify.com and is configured to use Continuous Deployment. When new changes are pushed to the `jrhoun/jrhoun.com` master branch, Netlify automatically fetches the repo, builds the site using the `hugo` command, and publishes the updated site files (usually within minutes).
-
-## Domain Registrar
-
-The `jrhoun.com` is currently managed at hover.com.
-
-## Writing Content
-
-I'm still figuring this part out. The site's content is mostly going to be blog posts so new posts are added to the `/content/posts/` directory
-
-To create a new blog post:
-
-`hugo new posts/[blog-title-here].md`
-
-This will create a new `.md` in the `/posts/` directory with title date, and draft status metadata.
-
-## Automatically Generating Newsletters
-
-To enable users to receive emails with blog content, I setup an automated job with [Zapier](https://zapier.com/) that monitors the blog's RSS feed for updates and then pushes new blog content to connected [TinyLetter](https://tinyletter.com/) account. The content appears as a draft that can be manually or automatically sent as a newsletter to subscriber's emails.

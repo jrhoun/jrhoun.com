@@ -1,0 +1,57 @@
+{{!< default}}
+
+{{#tag}}
+<header class="tag-header inner">
+    {{#if feature_image}}
+    <img class="tag-image" src="{{img_url feature_image size="m"}}" alt="{{name}}" />
+    {{/if}}
+    <h1 class="tag-title">{{name}}</h1>
+    <div class="tag-description">
+        {{#if description}}
+            {{description}}
+        {{else}}
+            A collection of {{plural ../pagination.total empty='0 posts' singular='% post' plural='% posts'}}
+        {{/if}}
+    </div>
+</header>
+{{/tag}}
+
+<div class="post-feed inner">
+    {{#foreach posts}}
+        <article class="post-card {{post_class}} {{#has visibility="paid"}}is-paid{{/has}}">
+            <a class="post-card-image-link" href="{{url}}">
+                {{#if feature_image}}
+                    <img class="post-card-image {{#has visibility="paid,members"}}blur-feature-image{{/has}}" src="{{img_url feature_image size="m"}}" alt="{{title}}" loading="lazy" />
+                {{else}}
+                    <div class="post-card-no-image"></div>
+                {{/if}}
+            </a>
+            <div class="post-card-content">
+                <a class="post-card-content-link" href="{{url}}">
+                    <header class="post-card-header">
+                        {{#if primary_tag}}
+                            <span class="post-card-primary-tag">{{primary_tag.name}}</span>
+                        {{/if}}
+                        {{#has visibility="members"}}<span class="post-card-visibility">Members only</span>{{/has}}
+                        <h2 class="post-card-title">{{title}}</h2>
+                    </header>
+                        <div class="post-card-excerpt">
+                            {{#if access}}
+                                {{#if excerpt}}
+                                    <p>{{excerpt words="33"}}</p>
+                                {{/if}}
+                            {{else}}
+                                <p class="excerpt-placeholder">This post is for family and friends only. Please join or sign in to continue reading.</p>
+                            {{/if}}
+                        </div>
+                </a>
+                <footer class="post-card-meta">
+                    <span class="reading-time">{{reading_time}}</span>
+                    <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM D, YYYY"}}</time>
+                </footer>
+            </div>
+        </article>
+    {{/foreach}}
+</div>
+
+{{pagination}}

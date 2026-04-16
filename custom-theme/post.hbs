@@ -1,0 +1,79 @@
+{{!< default}} {{#post}} <article class="article {{post_class}} inner">
+
+    <header class="article-header">
+        <h1 class="article-title">{{title}}</h1>
+        <div class="article-author-block">
+            <div class="author-profile">
+                {{#foreach authors limit="1"}}
+                <a href="{{url}}" class="author-avatar-link">
+                    {{#if profile_image}}
+                    <img class="author-avatar" src="{{img_url profile_image size="xs"}}" alt="{{name}}" />
+                    {{else}}
+                    <span class="author-avatar-fallback">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </span>
+                    {{/if}}
+                </a>
+                {{/foreach}}
+                <div class="author-info">
+                    {{#foreach authors limit="1"}}
+                    <a href="{{url}}" class="author-name">{{name}}</a>
+                    {{/foreach}}
+                    <div class="author-meta">
+                        <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="MMMM D, YYYY"}}</time>
+                        <span class="bull">&bull;</span>
+                        <span class="reading-time">{{reading_time}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{#if feature_image}}
+        <figure class="article-image">
+            <img srcset="{{img_url feature_image size="s"}} 300w,
+                         {{img_url feature_image size="m"}} 600w,
+                         {{img_url feature_image size="l"}} 1000w,
+                         {{img_url feature_image size="xl"}} 2000w"
+                 sizes="(max-width: 1000px) 100vw, 800px"
+                 src="{{img_url feature_image size="xl"}}" 
+                 alt="{{title}}"
+                 class="{{#unless access}}blur-feature-image{{/unless}}"
+                 fetchpriority="high" />
+        </figure>
+        {{/if}}
+    </header>
+
+    {{!-- Content Area --}}
+    <section class="article-content gh-content {{#unless access}}article-preview{{/unless}}">
+        {{content}}
+    </section>
+
+    {{!-- Paywall / Upgrade CTA --}}
+    {{#unless access}}
+    <section class="paywall-overlay">
+        <div class="paywall-content">
+            {{#has visibility="members"}}
+            <h2>Unlock the full story</h2>
+            <p>Sign up now to read this post and get access to members-only posts.</p>
+            <a class="button button-primary" href="javascript:" data-portal="signup">Subscribe for free</a>
+            {{/has}}
+
+            {{#has visibility="paid"}}
+            <h2>Family & Friends Only</h2>
+            <p>This post is available to verified family and friends. To read the full story, please ensure you are
+                signed in with your account. Having an issue? Reach out to me at <a
+                    href="mailto:jr.houn@gmail.com">jr.houn@gmail.com</a></p>
+            {{/has}}
+
+            <p class="paywall-login">Already have an account? <a href="javascript:" data-portal="signin">Sign in
+                    here</a></p>
+        </div>
+    </section>
+    {{/unless}}
+
+    </article>
+    {{/post}}

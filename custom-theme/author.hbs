@@ -1,0 +1,106 @@
+{{!< default}} {{#author}} <header class="author-header inner">
+    <div class="author-header-content">
+        {{#if profile_image}}
+        <img class="author-profile-image" src="{{img_url profile_image size="m"}}" alt="{{name}}" />
+        {{else}}
+        <div class="author-profile-image-fallback">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+        </div>
+        {{/if}}
+        <h1 class="author-title">{{name}} <sup class="author-post-count">({{plural ../pagination.total empty='0'
+                singular='% post' plural='% posts'}})</sup></h1>
+
+        {{#if bio}}
+        <p class="author-bio">{{bio}}</p>
+        {{/if}}
+
+            <div class="author-social">
+                {{#if facebook}}
+                <div class="social-link">
+                    <a href="{{facebook_url}}" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        Facebook
+                    </a>
+                </div>
+                {{/if}}
+
+                {{#if twitter}}
+                <div class="social-link">
+                    <a href="{{twitter_url}}" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+                        X
+                    </a>
+                </div>
+                {{/if}}
+
+                {{#if instagram}}
+                <div class="social-link">
+                    <a href="https://instagram.com/{{instagram}}" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        Instagram
+                    </a>
+                </div>
+                {{/if}}
+
+                <div class="social-link">
+                    <a href="https://linkedin.com/in/jrhoun" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        LinkedIn
+                    </a>
+                </div>
+
+                <div class="social-link">
+                    <a href="mailto:jr.houn@gmail.com">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        Email
+                    </a>
+                </div>
+            </div>
+    </div>
+    </header>
+    {{/author}}
+
+    <div class="post-feed inner">
+        {{#foreach posts}}
+        <article class="post-card {{post_class}} {{#has visibility="paid"}}is-paid{{/has}}">
+            <a class="post-card-image-link" href="{{url}}">
+                {{#if feature_image}}
+                <img class="post-card-image {{#has visibility="paid,members"}}blur-feature-image{{/has}}" src="{{img_url feature_image size="m"}}" alt="{{title}}" loading="lazy" />
+                {{else}}
+                <div class="post-card-no-image"></div>
+                {{/if}}
+            </a>
+            <div class="post-card-content">
+                <a class="post-card-content-link" href="{{url}}">
+                    <header class="post-card-header">
+                        {{#if primary_tag}}
+                        <span class="post-card-primary-tag">{{primary_tag.name}}</span>
+                        {{/if}}
+                        {{#has visibility="members"}}<span class="post-card-visibility">Members only</span>{{/has}}
+                        <h2 class="post-card-title">{{title}}</h2>
+                    </header>
+                        <div class="post-card-excerpt">
+                        {{#if access}}
+                            {{#if excerpt}}
+                                <p>{{excerpt words="33"}}</p>
+                            {{/if}}
+                        {{else}}
+                            <p class="excerpt-placeholder">This post is for family and friends only. Please join or sign in to continue reading.</p>
+                        {{/if}}
+                    </div>
+                </a>
+                <footer class="post-card-meta">
+                    <span class="reading-time">{{reading_time}}</span>
+                    <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM D,
+                        YYYY"}}</time>
+                </footer>
+            </div>
+        </article>
+        {{/foreach}}
+    </div>
+
+    {{pagination}}
